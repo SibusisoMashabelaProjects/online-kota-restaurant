@@ -1,0 +1,242 @@
+/*
+Author: Sibusiso Mashabela;
+Theme: online restuarant
+*/
+*{
+   margin: 0 0;
+   padding: 0 0;  
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: darkblue;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+.btn-primary{
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: lightblue;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+     
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+}
+.text-white{
+    color: white;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+/*CSS for NAVBAR*/
+.logo{
+    
+    width: 10%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+/*CSS FOR MENU*/
+.menu{
+    line-height: 70px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1px;
+    font-weight: bold;
+}
+/**CSS FOR SEARCH*/
+
+.Food-search{
+
+    background-image: url(../images/bzab.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    
+    
+    
+} 
+.Food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+}
+/*CSS FOR CATEGORIES*/
+.categories{
+    padding: 4% 0;
+}
+.three-boxes{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+    
+}
+/*CSS FOR FOOD MENU*/
+.food-type{
+    background-color: lightgrey;
+    padding: 4% 0;
+}
+.food-type-box{
+    
+    width: 42%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+    
+}
+.food-menu-content{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* CSS FOR SOCIAL */
+
+.social ul{
+    list-style-type: none;
+}
+.social li{
+    display: inline;
+    padding: 1%;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/* CSS FOR MOBILE PHONES */
+@media screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .Food-search input[type="search"]{
+        width: 90%;
+        margin-bottom: 2%;
+        padding: 5%;
+    }
+    .btn{
+        width: 50%;
+    }
+    .Food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .three-boxes{
+        width: 90%;
+        margin: 4% auto;
+    }
+    .food-type{
+        padding: 20% 0;
+
+    }
+    .food-type-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
